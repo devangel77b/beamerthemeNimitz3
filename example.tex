@@ -1,0 +1,156 @@
+\documentclass[pdf]{beamer}
+
+\usepackage[orientation=landscape,size=custom,width=101.6,height=76.2,scale=1.4,debug]{beamerposter}
+
+\mode<presentation>{
+\usetheme{Nimitz2}
+}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{graphicx}
+\usepackage{siunitx}
+\sisetup{per=frac,fraction=sfrac}
+\usepackage{listings}
+\usepackage{hyperref} % covered with beamer?
+\hypersetup{
+colorlinks=true,
+urlcolor=blue
+}
+\usepackage[export]{adjustbox}
+\usepackage{svg}
+\usepackage{amsmath,amsthm,amssymb}
+\boldmath
+% Uncomment next line to restore figure numbers if you like that sort of thing
+\setbeamertemplate{caption}[numbered]
+
+% if using ieee style citations
+%\usepackage{cite}
+% or uncomment next line for biology style references
+\usepackage[round,authoryear]{natbib}
+
+\usepackage{hologo}
+
+\title{Capstone Poster Tips}
+\author{MIDN 1/C First Lastname and Prof First Lastname}
+\institute{United States Naval Academy, Dept of Weapons, Robotics, and Control Engineering}
+\date{\today}
+
+
+\begin{document}
+\begin{frame}{}
+
+\begin{columns}[T]
+
+\begin{column}{0.25\textwidth}
+\begin{block}{}
+\begin{abstract}
+Create a poster that will illustrate and enhance your final class presentation.  
+\end{abstract}
+\end{block}
+
+\section{Introduction}
+\subsection{Background}
+\begin{block}{Background}
+Regular poster size is \SI{30x40}{in}. Create a Git repository to hold \LaTeX\ poster files and files needed to generate figures; use short-term file sharing or email to transfer poster files. 
+\end{block}
+
+\subsection{Images}
+\begin{block}{Images}
+To add a background image, do x.
+
+Poster images should be high resolution jpg, png, or gif and must be cited, credited or with copyright information listed as applicable. 
+\end{block}
+\end{column}
+
+
+
+
+
+\begin{column}{0.25\textwidth}
+\section{Methods and materials}
+\begin{block}{Methods and materials}
+
+\begin{center}
+\begin{minipage}{0.8\linewidth}
+\begin{exampleblock}{Example block}
+\begin{itemize}
+\item Simplify data
+\item Organize information
+\item Bring content in first
+\item Decide effective layout
+\item Add supporting images, graphs, charts, etc.
+\item Format for visual clarity
+\item Proofread twice
+\item Submit to MSC
+\end{itemize}
+\end{exampleblock}
+\end{minipage}
+\end{center}
+
+Formatting tips:
+\begin{itemize}
+\item Use sans serif fonts for titles, serif for body
+\item Width of text boxes=40 characters
+\item Sentence lists preferred over large text blocks
+\item Italics and bold over underlining
+\item Easy to read graphs with labels
+\item Text in graphs should use sentence case
+\item Graphs large enough to see from a distance
+\item Copy/Paste Special for Excel graphs
+\end{itemize}
+\end{block}
+\end{column}
+
+
+\begin{column}{0.25\textwidth}
+\section{Results}
+\begin{block}{Results}
+\begin{center}
+\begin{minipage}{0.8\linewidth}
+\begin{exampleblock}{}
+Successful posters follow these design principles:
+\begin{itemize}
+\item Proofread content
+\item Light background colors or images
+\item High contrast between elements
+\item Align elements
+\item Legible text
+\item Highly organized layout
+\item Use of captions and labels
+\item High resolution images
+\item Sufficient margins within text boxes
+\item Properly formatted content
+\end{itemize}
+\end{exampleblock}
+\end{minipage}
+\end{center}
+\end{block}
+\end{column}
+
+
+\begin{column}{0.25\textwidth}
+\section{Discussion}
+\begin{block}{Discussion}
+Once you have completed designing your poster, bring to the MSC Graphics Technology Lab to review with staff. The MSC Graphics Technology Lab will only print one copy so make sure it is correct. Please allow three business days for printing unless told otherwise.
+\end{block}
+
+\section*{Acknowledgements}
+\begin{block}{Acknowledgements}
+Thank some people. Also contact MSC Graphics at \href{mailto://mscgraphics@usna.edu}{\emph{mscgraphics@usna.edu}}.
+%MSC hours
+%Mon-Thur 0730-2245
+%Friday 0730-1700 
+\end{block}
+
+\section*{References}
+\begin{block}{References}
+Use \hologo{BibTeX} to format any references, and select an appropriate citation style for your topic and department. If in doubt, ask a reference librarian \href{http://www.usna.edu/Library/reference/liaison.html}{http://www.usna.edu/Library/reference/liaison.html}.
+\end{block}
+\end{column}
+
+\end{columns}
+\end{frame}
+\end{document}

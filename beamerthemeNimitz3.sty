@@ -1,0 +1,25 @@
+\ProvidesPackage{beamerthemeNimitz1}
+
+\mode<presentation>
+
+% requirements
+% none
+
+% settings
+\useinnertheme{Nimitz3}
+\useoutertheme{Nimitz3}
+\usecolortheme{Nimitz3}
+%\usefonttheme{professionalfonts}
+\RequirePackage{helvet}
+\RequirePackage{mathptmx}
+
+\setbeamertemplate{navigation symbols}{}  % no navigation on a poster
+
+\setbeamertemplate{itemize items}[circle]
+
+%\setbeamertemplate{bibliography item}{} % no symbols in bib
+\setbeamertemplate{bibliography item}{\insertbiblabel} % numbers in bib
+
+\setbeamertemplate{caption}{\raggedright\insertcaption\par}
+
+\mode<all>
